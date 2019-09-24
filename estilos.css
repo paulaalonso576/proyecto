@@ -1,0 +1,269 @@
+* {
+	margin:0 ;
+	padding:0;
+	box-sizing: border-box;
+	list-style: none ;
+	text-decoration: none ;
+
+}
+header {
+	background: #D1462F;
+	padding: 30px 50px;
+	overflow: auto;
+}
+
+header h1 {
+	font-family: 'Roboto Condensed', sans-serif;
+	width:1000px;
+	color: #FFFFFF;
+	display: inline-block;
+}
+header nav {
+	float: right;
+}
+header nav ul li {
+	display: inline-block;
+	margin: 8px 5px 0;
+}
+
+header nav ul li a {
+	color: #fff;
+	font-family:'Rubik', sans-serif;
+	text-decoration: none;
+}
+
+
+.portada {
+	width:120%;
+}
+.historia {
+	background: tomato;
+	padding: 30px 50px;
+	font-size: 20px;
+
+bottom:50px;
+right: 30px;
+	
+	
+	
+}
+
+
+
+
+.historia h1 {
+	text-align: center;
+	font-family:'Rubik', sans-serif ;
+	color:#26110F;
+	padding: 30px 50px;
+
+    
+
+
+}
+
+.historia p{
+ background-color: rgba(0,0,0,0.3); ; 
+ opacity: 1 ;
+ font-family:'Noto Sans KR', sans-serif;
+ color:#FFFFFF;
+
+}
+
+
+
+.imagen {
+	width: 300px ;
+	height:300px;
+	border-radius: 10%;
+}
+
+.discografia {
+	background: #59150E ;
+	padding: 30px 50px;
+	overflow: auto;
+
+
+	
+}
+.discografia ul li
+{
+	display: inline-block;
+	position: relative;
+
+}
+
+.disco1spotify
+{display:none;
+	width: 300px ;
+	height:300px;
+	position: absolute;
+  top: 0;
+  left: 0; ;
+  border-radius: 10% ;
+
+}
+.disco2spotify
+{display:none;
+	width: 300px ;
+	height:300px;
+	position: absolute;
+  top: 0;
+  left: 0; ;
+  border-radius: 10% ;
+
+}
+.disco3spotify
+{display:none;
+	width: 300px ;
+	height:300px;
+	position: absolute;
+  top: 0;
+  left: 0; ;
+  border-radius: 10% ;
+
+}
+.disco4spotify
+{display:none;
+	width: 300px ;
+	height:300px;
+	position: absolute;
+  top: 0;
+  left: 0; ;
+  border-radius: 10% ;
+
+}
+.disco5spotify
+{display:none;
+	width: 300px ;
+	height:300px;
+	position: absolute;
+  top: 0;
+  left: 0; ;
+  border-radius: 10% ;
+
+}
+.disco6spotify
+{display:none;
+	width: 300px ;
+	height:300px;
+	position: absolute;
+  top: 0;
+  left: 0; ;
+  border-radius: 10% ;
+
+}
+.disco7spotify
+{display:none;
+	width: 300px ;
+	height:300px;
+	position: absolute;
+  top: 0;
+  left: 0; ;
+  border-radius: 10% ;
+
+}
+.disco8spotify
+{display:none;
+	width: 300px ;
+	height:300px;
+	position: absolute;
+  top: 0;
+  left: 0; ;
+  border-radius: 10% ;
+
+}
+
+.disco1:hover .disco1spotify {
+
+display:block;
+}
+
+.disco2:hover .disco2spotify {
+
+display:block;
+}
+.disco3:hover .disco3spotify {
+
+display:block;
+}
+.disco4:hover .disco4spotify {
+
+display:block;
+}
+.disco5:hover .disco5spotify {
+
+display:block;
+}
+.disco6:hover .disco6spotify {
+
+display:block;
+}
+.disco7:hover .disco7spotify {
+
+display:block;
+}
+.disco8:hover .disco8spotify {
+
+display:block;
+}
+
+
+
+
+
+
+
+
+
+
+
+.discografia h2 {
+	text-align: center;
+	font-family:'Rubik', sans-serif ;
+	color:#FFFFFF;
+	padding: 30px 50px;
+}
+
+.integrantes h3 {
+
+	text-align: center;
+	font-family:'Rubik', sans-serif ;
+	color:#26110F;
+	padding: 30px 50px;
+}
+
+.integrantes {
+	padding: 40px 0;
+}
+
+
+.integrantes .contenedor {
+	display:flex;
+	flex-direction: row; 
+	justify-content: space-evenly;
+	
+
+
+}
+
+.integrantes .article {
+	text-align: center;
+	border: 1px solid #ddd;
+	padding: 10px;
+
+}
+
+.integrantes img {
+	width: 250px ;
+	height:250px;
+
+}
+
+.videos {
+	text-align: center;
+	font-family:'Rubik', sans-serif ;
+	color:#26110F;
+	padding: 30px 50px;
+}
+
